@@ -1,0 +1,141 @@
+:root{
+    --borderOrange: #FF9255;
+    --borderBlue:#3E6A9B
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    width: 94%;
+  }
+  
+  li {
+    float: right;
+    margin: 1px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: inter;
+    font-weight: bold;
+    width: 90px;
+    height: 104px;
+    
+  }
+.logo img{
+    position: absolute;
+    width: 199px;
+    height: 58px;
+    left: 12px;
+    top: 23px;
+    
+    
+} /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: orange;
+    color: white;
+    font-size: 17px;
+
+  }
+
+
+header{
+    background-color: white;
+    border-color: black;
+    border-bottom: 1px;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-style: solid;
+}
+
+body{
+    background-image: url(images/bg.png);
+    background-size: 60%;
+   
+}
+
+
+.editor-container{
+    position: absolute;
+    width: 790px;
+    height: 480px;
+    left: -1px;
+    top: 272px;
+    background-color: white;
+    border: 1px solid black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    
+}
+.editor-code{
+    width: 787px;
+    height: 420px;
+    left: -1px;
+    top: 0px;
+    display: flex;
+    justify-content: left;   
+
+}
+
+.editor-header{
+    background-color:  var(--borderBlue);
+    width: 789px;
+    height: 30px;
+    border-top-right-radius: 20px;
+    
+}
+.editor-footer{
+    background-color: var(--borderOrange);
+    width: 789px;
+    height: 30px;
+    border-bottom-right-radius: 20px;
+    margin-top: 0px
+}
+
+.editor-footer button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    width: 60px;
+    margin-left: 42em;
+    
+}
+
+.mission-details-container{
+    position: absolute;
+    box-sizing: border-box;  
+    width: 400px;
+    height: 440px;
+    left: 1648px;
+    top: 292px;    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 25px 0px 0px 25px;
+    
+    
+}
+.mission-details-header{
+    background-color:  var(--borderBlue);
+    width: 399px;
+    height: 30px;
+    border-top-left-radius: 20px;
+    
+}
+.mission-details-footer{
+    background-color: var(--borderOrange);
+    width: 399px;
+    height: 30px;
+    border-bottom-left-radius: 20px;
+    margin-top: 378px
+}
